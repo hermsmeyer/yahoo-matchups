@@ -18,7 +18,7 @@ from rauth import OAuth1Service
 from getpass import getpass
 
 parser = argparse.ArgumentParser(
-	description="yahoo_matchups v 0.1 - downloads and predicts the outcome of your yahoo fantasy football league's head to head games.",
+	description="yahoo_matchups v 0.1 - predicts the outcome of your yahoo fantasy football league's head to head games.",
 	add_help=True)
 
 parser.add_argument('-w', type=int, help='Enter the week of matchups to predict. (Ex: -w 1)')
