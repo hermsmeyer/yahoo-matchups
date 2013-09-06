@@ -41,7 +41,9 @@ LEAGUE_URL = 'http://fantasysports.yahooapis.com/fantasy/v2/league/' + str(GAME_
 																					
 
 def connect_to_db() :
+	
 	con = None
+	
 	# We attempt to connect to our database
 	try :
 	    con = lite.connect(DB)
@@ -57,6 +59,7 @@ def connect_to_db() :
 
 
 def create_browser() :
+	
 	# We set up our mechanize browser
 	br = mechanize.Browser()
 
