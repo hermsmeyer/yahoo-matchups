@@ -31,8 +31,8 @@ args = parser.parse_args()
 ####################################################
 
 # Get Yahoo API keys here:  http://developer.yahoo.com/fantasysports/
-OAUTH_CONSUMER_KEY = 'dj0yJmk9RWFXeVpNaGtGYmZrJmQ9WVdrOU4yZHhkSG8zTm04bWNHbzlNVGswTXpreU1EQTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD02Yg--'
-OAUTH_SHARED_SECRET = '6975c6e198a9c03d8f8a12f701c2e621c27737d4'
+OAUTH_CONSUMER_KEY = ''
+OAUTH_SHARED_SECRET = ''
 DB = 'yahoo_matchups.sqlite'
 # You can get the up to date game id for football at this url:
 # http://developer.yahoo.com/yql/console/?q=select%20*%20from%20fantasysports.games%20where%20game_key%3D%27nfl%27%3B
